@@ -25,7 +25,7 @@ The `Student` class will extend `Comparable.java` and override the `compare` met
 - `getAttendance`, `setAttendance`
 - `compare` -- compares the current object with the parameter object based on the `attendance` field. If the number of attendances is equal, it returns 0; if the current object's attendance count is less / greater, it returns -1 / +1.
 
-## Teste.java
+## Test.java
 The `Test` class will contain a `main` method in which the following operations will be performed:
 1. Create a `ComparableStack` object (the maximum size will be provided as a command-line argument and will be set to 4).
 2. Display the content of the stack.
