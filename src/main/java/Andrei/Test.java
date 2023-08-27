@@ -41,6 +41,18 @@ public class Test {
         c1.printElements();
         System.out.println();
 
+
+        count = 0;
+        while(count < 5){
+            Random random = new Random();
+
+            Student student = new Student();
+            student.setName("Stud_ELTH_" + count);
+            student.setAttendance(random.nextInt(10));
+
+            c1.addElement(student);
+            count++;
+        }
         c1.sortElement();
         c1.printElements();
     }

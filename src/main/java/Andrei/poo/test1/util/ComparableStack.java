@@ -38,8 +38,17 @@ public class ComparableStack {
     }
 
     public void sortElement(){
+        boolean sorted = true;
 
+        for(int j = 0; j < vector.length; j++){
+            for(int i = 0; i < vector.length - 1; i++){
+                if (vector[i].compare(vector[i + 1]) > 1){
+                    sorted = false;
+                    Comparable aux = vector[i];
+                    vector[i] = vector[i + 1];
+                    vector[i + 1] = aux;
+                }
+            }
+        }
     }
-
-
 }
