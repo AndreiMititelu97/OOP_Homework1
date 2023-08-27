@@ -6,7 +6,7 @@ The application will consist of 4 files (classes):
 3. `Student.java` -- This class will belong to the default package.
 4. `Test.java` -- This class will belong to the default package.
 
-## StivaDeComparabile.java
+## ComparableStack.java
 The class `ComparableStack` will implement the functionality of a Last In First Out (LIFO) data structure, i.e., a stack, which will hold elements of type `Comparable`. The elements will be stored in a member variable, an array of type `Comparable`. The class will have a constructor that takes an integer parameter representing the maximum size of the stack. The accessible methods from outside the class will be:
 - `printElements` (starting from the top of the stack)
 - `addElement` (add an element)
@@ -15,7 +15,7 @@ The class `ComparableStack` will implement the functionality of a Last In First 
 
 Note: The methods will display messages for edge cases or important operations to notify the user.
 
-## Comparabil.java
+## Comparable.java
 The class `Comparable` will have an externally accessible method `compare`. This method will take another `Comparable` variable as input and return an integer value randomly chosen from the set {-1, 0, 1}.
 
 ## Student.java
