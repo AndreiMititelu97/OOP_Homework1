@@ -1,4 +1,4 @@
-# POO_tema1
+# OOP_Homework1
 The application will consist of 4 files (classes):
 
 1. `ComparableStack.java` -- This class will belong to the package `poo.test1.util`.
